@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.business-card {
+    display: flex; 
+    background-color: #9c9c9c;
+    border: 2px dotted red;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px; 
+    height: auto;
+    border-radius: 50%;
+    margin-right: 40px;
+    border: 2px dotted red;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000000;
+}
+
+.age, .title, .location {
+    margin: 5px 0;
+    color: #000000;
+}
